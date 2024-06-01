@@ -24,7 +24,7 @@
             display: flex;
         }
         span{
-            color: #ffffff;
+            color: #a5a5a5;
         }
         .efeito-txt-topo , .efeito-foto1 , .efeito-foto2, .efeito-foto3, .efeito-foto4, .efeito-foto5,.titulo ,.t1 , .t2, .t3, .t4, .t5, .login{
             visibility: hidden;
@@ -100,6 +100,7 @@
                 margin: auto;
                 text-align: center;
         }
+
         /*Fim do topo do site*/
         /*Começo das nossas img*/
         section.galeria{
@@ -208,7 +209,7 @@
         }
 
         button {
-            background-color: #007bff;
+            background-color: #151616;
             border: none;
             border-radius: 4px;
             color: rgb(255, 255, 255);
@@ -296,7 +297,7 @@
                 height: 60px;
                 border-radius: 50%;
                 border: none;
-                background-color: #ffffff1d;
+                background-color: #00000070;
                 font-size: 22px;
                 cursor: pointer;
                 margin: 0 0 5px;
@@ -309,7 +310,7 @@
                 font-size: 22px;
             }
             footer .line-footer p a{
-                color: #fff;
+                color: #000000;
             }
     @media screen and  (max-width : 1100px){
         .menu-desktrop{
