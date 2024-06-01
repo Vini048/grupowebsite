@@ -1,0 +1,345 @@
+        /* Estilo Geral*/
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        body{
+            background-color: #212121;
+            height: 100vh;
+            transition: .5s;
+        }
+        .inetrface{
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .flex{
+            display: flex;
+        }
+        span{
+            color: #ffffff;
+        }
+        .efeito-txt-topo , .efeito-foto1 , .efeito-foto2, .efeito-foto3, .efeito-foto4, .efeito-foto5,.titulo ,.t1 , .t2, .t3, .t4, .t5, .login{
+            visibility: hidden;
+        }
+        /*Fim do Estilo Geral*/
+
+        /*Começo do topo do site*/
+        section.topo-do-site{
+            padding: 40px 4%;
+
+        }
+        .topo-do-site{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0px;
+            justify-content: center;
+        }
+        header{
+            padding: 40px 4%;
+        }
+        header > .interface{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        header a{
+            color: #dbcfcf;
+            text-decoration: none;
+            display: inline-block;
+            transition: .2s;
+        }
+        header  a:hover{
+
+            color: #140505da;
+            transform: scale(1.05);
+        }
+        header nav ul{
+            list-style-type: none;
+        }
+        header nav  ul li{
+            display: inline-block;
+            padding: 0 40px;
+
+        }
+        .VSL{
+            width: 50px;
+            height: 50px;
+        }
+        .txt-topo-site h1  {
+            display: flex;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-between;
+            padding: 40px 4%;
+            padding: 40px;
+            border: 2px solid #ffffff1d;
+            margin-top: 45px;
+            border-radius: 20px;
+            transform: scale(1.05);
+            box-shadow: 0 0 8px #ffffff1d; 
+            font-size: 70px;
+            color: #000000a1;
+        }
+        .txt-topo-site p{
+                display: flex;
+                margin: 0 auto;
+                align-items: center;
+                justify-content: center;
+                font-size: 20px;
+                color: #000000a1;
+                height: 50px;
+                margin: auto;
+                text-align: center;
+        }
+        /*Fim do topo do site*/
+        /*Começo das nossas img*/
+        section.galeria{
+            padding: 80px 4%;
+            box-shadow: 0 0 40px 10px #ffffff1d;
+            margin-top: 45px;
+            text-align: center;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 80px;
+            justify-content: center;
+        
+        }
+        .foto {
+            width: 360px;
+            height: 400px;
+            border: 2px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            cursor: pointer;
+            border-radius: 40px;
+            position: relative;
+        }
+        .foto img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 600;
+            background-color: #000000b8;
+            color: #fff;
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .overlay:hover{
+            opacity: 1;
+        }
+        /*fim das nossas img*/
+
+        /*Galeria de fts (organizar dps) */
+        .galeria-de-imagens h1{
+            margin:auto;
+            text-align: center;
+            margin-top: 45px;
+            font-size: 70px;
+            color: #030303;
+        }
+        h2{
+            margin: auto;
+            text-align: center;
+        }
+    P{
+        margin: auto;
+        text-align: center;
+    }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 45px;
+            cursor: pointer;
+            border-radius: 40px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: rgb(23, 233, 93);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(208, 248, 200, 0.664);
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+            transition: transform 0.2s;
+            gap: 20px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #b3007d;
+        }
+
+        .description {
+            display: none;
+            margin-top: 10px;
+            color: #555;
+        }
+        /*Galeria de fts(organizar dps) */ 
+
+        /* Começo do LOGIN */
+        section.login{
+            padding: 80px 4%;
+
+        }
+        .login h1{
+            margin:auto;
+            text-align: center;
+            margin-top: 45px;
+            font-size: 70px;
+            color: #030303;
+        }
+        form{
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 40px
+        }
+        form input, form textarea{
+            width: 100%;
+            background-color: #00000013;
+            border: 0;
+            outline: 0;
+            padding: 20px 15px;
+            border-radius: 15px;
+            color: #fff;
+            font-size: 18px;
+
+        }
+        form textarea{
+            resize: none;
+        }
+        form .btn-enviar{
+            margin-top: 20px;
+            text-align: center;
+        }
+        form .btn-enviar input{
+            width: 120px;
+            background-color: #e6c7c71d;
+            color: #000;
+            cursor: pointer;
+        }
+
+        /* Fim do LOGIN */
+
+        /* Rodapé */
+        footer{
+            padding: 60px 4%;
+            box-shadow: 0 0 40px 10px #ffffff1d;
+        }
+        footer .flex{
+            justify-content: space-between;
+        }
+        footer .line-footer{
+            padding: 20px 0;
+            
+        }
+        .borda{
+            border-top: 2px solid #000000cc;
+        }
+            .btn-social button{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                border: none;
+                background-color: #ffffff1d;
+                font-size: 22px;
+                cursor: pointer;
+                margin: 0 0 5px;
+            }
+            .logo-foother{
+                cursor: pointer;
+            }
+            footer .line-footer p i{
+                color: #a70000;
+                font-size: 22px;
+            }
+            footer .line-footer p a{
+                color: #fff;
+            }
+    @media screen and  (max-width : 1100px){
+        .menu-desktrop{
+           display: none;
+        }
+        .txt-topo-site h1{
+            font-size: 21px;
+            width: 90%;
+            text-align: center;
+            line-height: 35px
+        
+        }
+        .txt-topo-site p{
+            font-size: 15px;
+            width: 90%;
+            gap: 20px;
+            padding: 50px;
+        }
+        .btn-social{
+            text-align: center;
+        }
+        .btn-social{
+            text-align: center;
+        }
+        footer .flex{
+            flex-direction: column;
+            gap: 30px;
+        }
+        footer .line-footer{
+            text-align: center;
+
+        }
+    }

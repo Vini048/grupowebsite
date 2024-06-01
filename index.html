@@ -1,0 +1,152 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" class="css">
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!--fim fonts-->
+        <!--Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- fim dos Icons-->
+        <script src="script.js"></script>
+        <!--Scroll reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="reveal.js" defer></script>
+        <!--Scroll reveal-->
+        <title>TRABALHO</title>
+    </head>
+    <body>
+        <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="imagens/logo.jpeg" alt="" class="VSL">
+                </a>
+                </div><!--logo-->
+                <nav class="menu-desktrop">
+                    <ul>
+                        <li><a href="topo-do-site">Inicio</a></li>
+                    <li><a href="galeria">Nos</a></li>
+                    <li><a href="galeria-de-imagens">Galeria</a></li>
+                    <li><a href="login">Login</a></li>
+                </ul>
+                </nav>
+        </div>
+        <section class="topo-do-site" >
+            <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site efeito-txt-topo">
+                    <h1>Bem Vindos ao nosso site </h1>
+                    <p>Somos Alunos da Uninassau e estamos fazendo este site para falarmos um pouco de nos </p>
+
+                </div><!--txt-topo-site-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+        
+        <section class="galeria">
+            <div class="foto efeito-foto1">
+                <div class="overlay">Sou Paulo, estudante de Engenharia da Computação apaixonado por análise de dados e tecnologia.Sempre em busca de novos
+                    desafios e oportunidades para aplicar os conhecimentos e habilidades de forma criativa e eficiente.</div>
+                <img src="imagens/WhatsApp Image 2024-05-23 at 21.45.21.jpeg" alt="Foto 1">
+            </div>
+            <div class="foto efeito-foto2">
+                <div class="overlay">Sou Caio , tenho 18 anos e faço ciências da computação no turno da manhã na uninassau. Passei 6 meses no Canadá estudando inglês. No tempo livre gosto de assistir futebol e jogar vídeo game</div>
+                <img src="imagens/WhatsApp Image 2024-05-23 at 22.35.10.jpeg" alt="Foto 2">
+            </div>
+            <div class="foto efeito-foto3">
+                <div class="overlay">Sou Victor Emery, tenho 19 anos, faço Ciência da Computação, curso o 3º período na nassau. Gosto de jogar vôlei, acompanhar futebol, ver filmes e jogos no computador.</div>
+                <img src="imagens/WhatsApp Image 2024-05-23 at 22.37.02.jpeg" alt="Foto 3">
+            </div>
+            <div class="foto efeito-foto4">
+                <div class="overlay">Sou Carlos, tenho 18 anos e faço Ciências da computação no turmo da manhã na Uninassau. Sempre tive afinidade com computadores por isso escolhi o curso. No meu tempo livre gosto de viajar.</div>
+                <img src="imagens/WhatsApp Image 2024-05-23 at 22.37.30.jpeg" alt="Foto 4">
+            </div>
+            <div class="foto efeito-foto5">
+                <div class="overlay">Sou Vinícius , tenho 18 anos e estudo Ciencia da Computação, sou Jovem aprendiz atuando no Banco do Nordeste contratado pela Renapsi, gosto muito de tecnologia e de futebol</div>
+                <img src="imagens/WhatsApp Image 2024-05-24 at 19.16.46.jpeg" alt="Foto 5">
+            </div>
+        </section>
+    </header>
+                <main>
+                    <section class="galeria-de-imagens">
+                        <div class="interface">
+                            <h1 class="titulo">Galeria<span>!</span></h1>
+                            <h2>Esta Parte do site e uma galeria que fizemos para falar dos nossos times de futebol </h2>
+                            <p>Cada Card contem um pouco de informaçoes dos times e quem e o torcedor dele </p>
+                            <div class="flex">
+                                <div class="card-container ">
+                                    <div class="card t1 " id="card1">
+                                        <img src="imagens/Barcelona-Logo-PNG12.png" alt="Team 1">
+                                        <h2>FC Barcelona</h2>
+                                        <button onclick="showDescription('card1')">Mostrar Descrição</button>
+                                        <p class="description" id="description-card1">FC Barcelona é um dos clubes de futebol mais prestigiados do mundo, conhecido por seu estilo de jogo único e sucesso histórico. E o time do coração do Carlos</p>
+                                    </div>
+                            
+                                    <div class="card t2" id="card2">
+                                        <img src="imagens/Real_madrid_logo_PNG1.png" alt="Team 2">
+                                        <h2>Real Madrid</h2>
+                                        <button onclick="showDescription('card2')">Mostrar Descrição</button>
+                                        <p class="description" id="description-card2">Real Madrid é um clube de futebol de renome mundial, famoso por seus muitos títulos de Liga dos Campeões da UEFA. E o time do coração do Vinícius
+                                        </p>
+                                    </div>
+                            
+                                    <div class="card t3" id="card3">
+                                        <img src="imagens/pngwing.com.png" alt="Team 3">
+                                        <h2>Sport</h2>
+                                        <button onclick="showDescription('card3')">Mostrar Descrição</button>
+                                        <p class="description" id="description-card3">Sport e um dos times mais populares do nordeste do Brasil é e um time com varios titulos estaduais. E o time do coração do Paulo </p>
+                                    </div>
+                            
+                                    <div class="card t4" id="card4">
+                                        <img src="imagens/Bayern_munchen_logo_PNG3.png" alt="Team 4">
+                                        <h2>Bayern Munich</h2>
+                                        <button onclick="showDescription('card4')">Mostrar Descrição</button>
+                                        <p class="description" id="description-card4">Bayern Munich é um clube de futebol dominante na Alemanha, conhecido por suas conquistas na Bundesliga e na Liga dos Campeões. E o time do coração do Caio</p>
+                                    </div>
+                            
+                                    <div class="card t5" id="card5">
+                                        <img src="imagens/liverpool_logo_PNG1.png" alt="Team 5">
+                                        <h2>Liverpool</h2>
+                                        <button onclick="showDescription('card5')">Mostrar Descrição</button>
+                                        <p class="description" id="description-card5">Liverpool é um dos clubes de futebol mais icônicos da Inglaterra, famoso por sua apaixonada base de fãs e títulos europeus. E o time do coração do Victor</p>
+                                    </div>
+                                </div>
+                    </section><!--galeria-de-imagens-->
+                    <section class="login">
+                        <div class="interface">
+                            <h1 class="titulo">Falem <span>Conosco</span></h1>
+                            <form action="">
+                                <input type="text" name="" id="" placeholder="Seu nome" required>
+                                <input type="text" name="" id="" placeholder="Seu e-mail" required>
+                                <input type="text" name="" id="" placeholder="Seu celular">
+                                <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+                                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                            </form>
+                </div>
+                    </section><!--login-->
+                </main>
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-foother">
+                                <img src="imagens/logo.jpeg" alt="" class="VSL">
+                            </div>
+                            <div class="btn-social">
+                                <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                                <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="line-footer borda">
+                    <p><i class="bi bi-envelope"> </i><a href="mailto:contato@alunos.com.br"> contato@alunos.com.br</a></p>
+                </div>
+            </div>
+        </footer>
+        </body>
+        </html>
