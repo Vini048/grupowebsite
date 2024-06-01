@@ -7,3 +7,13 @@
             description.style.display = "block";
         }
     }
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const colorButton = document.getElementById('Luz');
+        const colors = ['#fff','212121',];
+        let currentColorIndex = 0;
+    
+        Luz.addEventListener('click', () => {
+            currentColorIndex = (currentColorIndex + 1) % colors.length;
+            document.body.style.backgroundColor = colors[currentColorIndex];
+        });
+    });
