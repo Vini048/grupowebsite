@@ -9,7 +9,7 @@
     }
     document.addEventListener('DOMContentLoaded', (event) => {
         const colorButton = document.getElementById('Luz');
-        const colors = ['#fff'];
+        const colors = ['#fff', 'gray'];
         let currentColorIndex = 0;
     
         Luz.addEventListener('click', () => {
